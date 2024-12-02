@@ -1,5 +1,6 @@
 *
-!stc
+!src
+!python
 !LICENSE
 !Makefile
 !README.md
