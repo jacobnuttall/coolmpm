@@ -488,7 +488,6 @@ def select_data(particle_history, pid=0):
         particle_history (dict): dictionary containing time series of material properties
         pid (int, optional): particle id. Defaults to 0.
     """
-    global E11, le11, e11, sig11, S11, ts, xs, Xs, dXs, dxs
 
     for key, item in particle_history.items():
         particle_history[key] = np.array(item)
@@ -503,3 +502,5 @@ def select_data(particle_history, pid=0):
     Xs = particle_history['X'][:,pid]
     dXs = particle_history['dX'][:,pid]
     dxs = particle_history['dx'][:,pid]
+    
+    return E11, le11, e11, sig11, S11, ts, xs, Xs, dXs, dxs
