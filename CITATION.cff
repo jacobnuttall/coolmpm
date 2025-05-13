@@ -1,1 +1,10 @@
 
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Nuttall"
+  given-names: "Jacob"
+title: "CoolMPM"
+version: 0.1.0
+date-released: 2025-03-11
+url: "https://github.com/jacobnuttall/coolmpm"
